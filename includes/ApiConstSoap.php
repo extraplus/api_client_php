@@ -119,9 +119,9 @@
 		define('LINK_FORMAT', 'linkFormat');
 		define('REVIEW_STATE', 'reviewState');
 		define('TRACKING_CATEGORY', 'trackingCategory');
-		define('MONTH', 'month');
-		define('DAY', 'day');
-		define('YEAR', 'year');
+		defined('MONTH') 	or define('MONTH', 'month');
+		defined('DAY') 		or define('DAY', 'day');
+		defined('YEAR') 	or define('YEAR', 'year');
 		define('DAY_OF_WEEK', 'dayOfWeek');
 		define('APPLICATION', 'application');
 		define('MEDIA_SLOT', 'mediaSlot');
